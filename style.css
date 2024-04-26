@@ -3,19 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; 
 }
+
+
+
 
 .personaje {
-/* Complete el CSS aqui */
+    border: 1px solid black; 
+    width: 200px;
+    margin-bottom: 1rem; 
+    text-align: center;
 }
+
+
+
 
 .personaje__nombre {
-/* Complete el CSS aqui */
+    color: red; 
 }
 
+
+
+
 .personaje__imagen {
-/* Complete el CSS aqui */
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
 }
